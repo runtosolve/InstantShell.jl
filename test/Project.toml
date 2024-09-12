@@ -1,2 +1,4 @@
 [deps]
+HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
