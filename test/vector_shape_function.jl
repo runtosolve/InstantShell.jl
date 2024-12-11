@@ -95,7 +95,7 @@ dK = substitute(dK, (Dict(E => 1.0, ν => 0.3, t => 1.0, G => 0.5, a => 1.0, b =
 
 
 
-# f_expr = Base.remove_linenums!(build_function(dK[1, 1], [x, y], expression=Val{false}))
+f_expr = Base.remove_linenums!(build_function(dK[1, 1], [x, y], expression=Val{false}))
 
 f = build_function(dK[1, 1], [x, y], expression=Val{true})
 
